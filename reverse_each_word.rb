@@ -2,10 +2,13 @@ def reverse_each_word(sentence)
   reverse_array = []
   reversed_string = ""
   
-  sentence_array = sentence.split("")
-  sentence_array.each do |character|
-    reversed_string = reversed_string + character
+  sentence_array = sentence.split(" ")
+  sentence_array.each do |word|
+    word.reverse
   end
-  reversed_string.reverse
+  
+  while 
+    
+  whi
   reversed_string
 end
