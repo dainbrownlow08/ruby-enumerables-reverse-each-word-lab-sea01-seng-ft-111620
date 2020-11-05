@@ -8,6 +8,6 @@ def reverse_each_word(sentence)
   sentence_array[sentence_array.length - 1] = sentence_array[sentence_array.length - 1].split(" ")
   sentence_array[sentence_array.length - 1] = sentence_array[sentence_array.length - 1][0]
   
-  sentence_array.each.collect {|word| puts word}
+  sentence_array.collect {|word| puts word}
 
 end
